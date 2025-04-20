@@ -15,8 +15,5 @@ int main(){
         float avg = (float)sum / p ;
         printf("Average of student %d is : %.2f\n", i , avg );
     }
-
-
-
     return 0 ; 
 }
