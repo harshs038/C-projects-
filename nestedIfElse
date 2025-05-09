@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+int age = 25;
+int income = 50000;
+
+if (age >= 18) {
+    if (income >= 30000) {
+        printf("You are eligible for a loan");
+    } else {
+        printf("You are not eligible for a loan due to low income");
+    }
+} else {
+    printf("You are not eligible for a loan due to age restrictions");
+}
+return 0;
+}
